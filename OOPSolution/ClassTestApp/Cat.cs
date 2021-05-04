@@ -35,6 +35,7 @@ namespace ClassTestApp
             base.Sleep(); //부모의 sleep 실행.
             //이후 자식 클래스의 sleep 내용 실행. 
             Console.WriteLine($"{this.Color}고양이 {this.Name}이(가) zz잡니다!");
+
         }
     }
 }

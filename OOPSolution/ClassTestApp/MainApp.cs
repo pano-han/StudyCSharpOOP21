@@ -4,6 +4,7 @@ namespace ClassTestApp
 {
     class MainApp
     {
+
         static void Main(string[] args)
         {
             Console.WriteLine("고양이 객체 생성");

@@ -10,6 +10,7 @@ namespace ClassTestApp
             Console.WriteLine("고양이 객체 생성");
             Cat kitty = new Cat("키티", 3);
             //kitty.Name = "키티"; -> 이런 식으로 작성을 못함. 
+            kitty.Age = 3;
             kitty.Color = "하얀색";
             kitty.Meow();
 

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassTestApp", "ClassTestAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceTestApp", "InterfaceTestApp\InterfaceTestApp.csproj", "{A6FE6486-49D6-4EFD-9446-303FDBD5B2D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingInterfaceTestApp", "UsingInterfaceTestApp\UsingInterfaceTestApp.csproj", "{6758E4F7-9FB7-4DAC-AA4A-C1C83E112AC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A6FE6486-49D6-4EFD-9446-303FDBD5B2D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6FE6486-49D6-4EFD-9446-303FDBD5B2D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6FE6486-49D6-4EFD-9446-303FDBD5B2D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6758E4F7-9FB7-4DAC-AA4A-C1C83E112AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6758E4F7-9FB7-4DAC-AA4A-C1C83E112AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6758E4F7-9FB7-4DAC-AA4A-C1C83E112AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6758E4F7-9FB7-4DAC-AA4A-C1C83E112AC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

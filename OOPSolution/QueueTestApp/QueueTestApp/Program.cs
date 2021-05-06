@@ -40,6 +40,7 @@ namespace QueueTestApp
             Console.WriteLine();
             #endregion
 
+            #region 해쉬테이블
             Hashtable dictionary = new Hashtable();
             dictionary[1] = "책";
             dictionary[2] = "요리사";
@@ -47,6 +48,9 @@ namespace QueueTestApp
             dictionary[4] = "고래";
 
             Console.WriteLine(dictionary[3]);
+            #endregion
+
+
         }
     }
 }

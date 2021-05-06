@@ -15,7 +15,6 @@ namespace CollectionTestApp
             Console.WriteLine("obj의 값 : " + obj);
             Console.WriteLine("b의 값 : " + b);
 
-
             string str = "문자열임";
             obj = str;
 

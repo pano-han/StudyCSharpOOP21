@@ -5,7 +5,7 @@ namespace IndexerTestApp
     class MyList
     {
         private int[] array;
-
+        //배열화(배열이 아닌 MY LIST를 배열처럼 만들어주는 프러퍼티.
         public int this[int index] //==MyList[i]==arrsy[i] array에 있는 i값을 가져오겠다는 뜻. 
         {
             get

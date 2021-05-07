@@ -17,6 +17,11 @@ namespace IndexerTestApp
             {
                 Console.WriteLine(list[i]);
             }
+            Console.WriteLine("Foreach 실행 -====-=");
+            foreach (var item in list)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }

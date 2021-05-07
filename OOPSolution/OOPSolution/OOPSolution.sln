@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateChainApp", "Delegat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHandlerTestApp", "EventHandlerTestApp\EventHandlerTestApp.csproj", "{BBCEE4E5-415F-49DC-B297-751E307EFE87}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHandlerCheckApp", "EventHandlerCheckApp\EventHandlerCheckApp.csproj", "{C39ACC58-6050-4173-B5EE-F8672D8B4611}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{BBCEE4E5-415F-49DC-B297-751E307EFE87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBCEE4E5-415F-49DC-B297-751E307EFE87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBCEE4E5-415F-49DC-B297-751E307EFE87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C39ACC58-6050-4173-B5EE-F8672D8B4611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C39ACC58-6050-4173-B5EE-F8672D8B4611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C39ACC58-6050-4173-B5EE-F8672D8B4611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C39ACC58-6050-4173-B5EE-F8672D8B4611}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NLog;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,7 @@ namespace EventHandlerCheckApp
 {
     public partial class MainForm : Form
     {
+        static readonly Logger logger = LogManager.GetCurrentClassLogger(); //요거 하나 추가하면 됨. 
         public MainForm()
         {
             InitializeComponent();
@@ -19,7 +21,8 @@ namespace EventHandlerCheckApp
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            //초기화 내용...
+            logger.Info("MainForm 로드");
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -36,6 +39,19 @@ namespace EventHandlerCheckApp
         {
             var result = TxtUserID.Text + "\n" + TxtPassword.Text;
             MessageBox.Show($"당신이 아이디와 패스워드는 {result}");
+
+            try
+            {
+                var val = TxtPassword.Text.Substring(3, 2); //문자열 자르는 메서드
+                MessageBox.Show($"{val}");
+                logger.Info("제대로 완료!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("예외발생, 관리자에게 문의요망");
+                logger.Error("예외발생, 관리자에게 문의요망");
+                logger.Error($"{ex}");
+            }
         }
 
         private void TxtPassword_TextChanged(object sender, EventArgs e)

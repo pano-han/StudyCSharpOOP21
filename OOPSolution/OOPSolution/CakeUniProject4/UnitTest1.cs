@@ -1,4 +1,4 @@
-using AttributeTestApp;
+/*using AttributeTestApp;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace CakeUniProject4
@@ -16,7 +16,7 @@ namespace CakeUniProject4
 
             Assert.AreEqual (8, result);
 
-            /*[TestMethod]
+            *//*[TestMethod]
             public void PrintTest()
             {
                 MyClass myClass = new MyClass ();
@@ -24,8 +24,9 @@ namespace CakeUniProject4
                 var result myClass.Divide(a, b);
                 var expexted = 3;
                 Assrte.AreEual(expexted, result);
-            }*/
+            }*//*
         }
 
     }
 }
+*/

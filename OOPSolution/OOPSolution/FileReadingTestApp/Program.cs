@@ -7,7 +7,7 @@ namespace FileReadingTestApp
     {
         static void Main(string[] args)
         {
-            string fullPath = @"C:\Windows\PFRO.log";
+            string fullPath = @"C:\Test\Help ";
             StreamReader sr = new StreamReader(new FileStream(fullPath, FileMode.Open));
 
             while (sr.EndOfStream == false)
